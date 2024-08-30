@@ -11,7 +11,58 @@ h1{
 }
 
 nav{
+    background-color: aliceblue;
+    text-align: center;    
+    padding: 1rem;
     
+    
+
+}
+
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
     text-align: center;
 
+
+    
+    
+}
+
+input{
+    
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 2rem;
+    text-align: right;
+    
+}
+
+table{
+    height: 300px;;
+    width: 250px;    
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+
+    
+}
+
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td a{    
+    text-decoration: none;
+    
 }
