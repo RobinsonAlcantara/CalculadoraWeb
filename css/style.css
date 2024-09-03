@@ -19,11 +19,11 @@ body{
 }
 
 .pantalla{
-    height: 15%;
+    height: 17%;
     background-color: white;
     text-align: right;
     width: 90%;
-    font-size: 65px;
+    font-size: 50px;
     margin: 25px;
     
 }
@@ -52,6 +52,13 @@ body{
 }
 
 .boton:active{
-    background-color: antiquewhite;
+    background-color: rgb(131, 167, 214);
+}
+
+.boton[value="0"]{
+    width:48%;
+}
+.boton[value="="]{
+    width:48%;
 }
 
